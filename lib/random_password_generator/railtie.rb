@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # lib/random_password_generator/railtie.rb
 module RandomPasswordGenerator
   class Railtie < ::Rails::Railtie
@@ -6,4 +8,3 @@ module RandomPasswordGenerator
     end
   end
 end
-  
