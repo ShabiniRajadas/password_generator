@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/ShabiniRajadas/random_password_generator'
   spec.license       = 'MIT'
 
-  spec.files         = Dir['lib/**/*', 'lib/**/*.rb']
-  spec.require_paths = ['lib']
+  spec.files         = Dir["lib/**/*", "lib/**/*.rb"]
+  spec.require_paths = ["lib"]
 
   spec.add_dependency 'rails'
 end
