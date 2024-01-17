@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# lib/random_password_generator/view_helper.rb
-module RandomPasswordGenerator
+# lib/password_generator/view_helper.rb
+module PasswordGenerator
   # The `ViewHelper` module provides a helper method for generating random passwords
   # in Rails views.
   #
@@ -13,8 +13,8 @@ module RandomPasswordGenerator
     # @param [Integer] length The length of the password to generate. Defaults to 12.
     # @return [String] HTML paragraph tag containing the random password.
     def random_password_tag(length = 12)
-      password = RandomPasswordGenerator.generate_password(length)
-      content_tag(:p, "Random Password: #{password}")
+      password = PasswordGenerator.generate_password(length)
+      content_tag(:p, "Password: #{password}")
     end
   end
 end
