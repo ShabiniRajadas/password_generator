@@ -13,7 +13,7 @@ The Password Generator gem is a simple utility for generating random passwords w
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'password_generator', '~> 0.1.0'
+gem 'password_generator', '~> 0.1.1'
 ```
 
 And then execute:
