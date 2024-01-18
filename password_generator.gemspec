@@ -11,6 +11,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/ShabiniRajadas/password_generator'
   spec.license       = 'MIT'
 
+  spec.metadata = { "github_repo" => "https://github.com/ShabiniRajadas/password_generator" }
+
   spec.files         = Dir['lib/**/*', 'lib/**/*.rb']
   spec.require_paths = ['lib']
 
