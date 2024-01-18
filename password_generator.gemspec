@@ -3,7 +3,7 @@
 # password_generator.gemspec
 Gem::Specification.new do |spec|
   spec.name = 'password_generator'
-  spec.version       = '1.0.0'
+  spec.version       = '1.0.1'
   spec.authors       = ['Shabini Rajadas']
   spec.email         = ['shabiniraja90@gmail.com']
   spec.summary       = 'Generate random passwords for Rails applications'
