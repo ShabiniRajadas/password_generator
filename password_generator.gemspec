@@ -3,7 +3,7 @@
 # password_generator.gemspec
 Gem::Specification.new do |spec|
   spec.name = 'password_generator'
-  spec.version       = '1.0.1'
+  spec.version       = '1.0.2'
   spec.authors       = ['Shabini Rajadas']
   spec.email         = ['shabiniraja90@gmail.com']
   spec.summary       = 'Generate random passwords for Rails applications'
@@ -11,7 +11,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/ShabiniRajadas/password_generator'
   spec.license       = 'MIT'
 
-  spec.metadata = { "github_repo" => "https://github.com/ShabiniRajadas/password_generator" }
+  spec.metadata = { 'github_repo' => 'https://github.com/ShabiniRajadas/password_generator',
+                    'source_code_uri' => 'https://github.com/ShabiniRajadas/password_generator' }
 
   spec.files         = Dir['lib/**/*', 'lib/**/*.rb']
   spec.require_paths = ['lib']
